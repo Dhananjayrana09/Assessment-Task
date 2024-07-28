@@ -9,7 +9,7 @@ function Sidebar({ onAddTask, setFilter }) {
   return (
     <Box sx={{ width: 240, backgroundColor: 'background.paper', position: 'relative' }}>
       <Box sx={{ p: 2, display: 'flex', alignItems: 'center' }}>
-        <Avatar sx={{ mr: 2 }}>M</Avatar>
+        <Avatar sx={{ mr: 2 }}>D</Avatar>
         <Typography variant="subtitle1">Dhananjay Pundir</Typography>
       </Box>
       <Divider />
@@ -50,3 +50,5 @@ function Sidebar({ onAddTask, setFilter }) {
 }
 
 export default Sidebar;
+
+
